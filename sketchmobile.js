@@ -159,9 +159,9 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/60);
   textAlign(RIGHT);
-  translate((-windowWidth/2)+20,(windowHeight/2) -170);
+  translate(windowWidth/2 - 20,(windowHeight/2) - ((windowHeight/60)*6));
   fill(value7,value8,value9);
-  text("Carlotta Calabria -\nFederico Cordelli -\nShan Huang -\nYuri Piemontese -\nLorenzo Urietti -\nValentina Zaccaria",0,0);
+  text("Carlotta Calabria -\nFederico Cordelli -\nShan Huang -\nYuri Piemontese -\nLorenzo Urietti -\nValentina Zaccaria _",0,0);
   pop();
 
 
