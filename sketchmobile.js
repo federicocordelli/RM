@@ -65,14 +65,14 @@ function draw() {
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) );
   fill(value1, value2, value3);
   textFont(IKAN);
-  textSize(windowHeight/12);
+  textSize(windowHeight/8);
   text("Retape",0,0);
   pop();
 
 
   push();
   textFont(HELV);
-  textSize(windowHeight/30);
+  textSize(windowHeight/36);
   textAlign(LEFT);
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) + (windowHeight/13));
   fill(value1, value2, value3);
@@ -116,7 +116,7 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/70);
   textAlign(LEFT,CENTER);
-  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/80));
+  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/70));
   fill('#C65B4C');
   rotateX(millis() / 2500);
   text("sustainable consumption & production project / Politecnico di Milano",0,0);
