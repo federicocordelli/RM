@@ -40,7 +40,7 @@ function draw() {
 
   push();
   textFont(HELV);
-  textSize(windowHeight/51);
+  textSize(windowHeight/60);
   textAlign(LEFT,CENTER);
   translate((-windowWidth/2) + mouseX,(-windowHeight/2)+ mouseY);
   fill(value4, value5, value6, opacity);
@@ -64,14 +64,14 @@ function draw() {
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) );
   fill(value4, value5, value6);
   textFont(IKAN);
-  textSize(windowHeight/4);
+  textSize(windowHeight/12);
   text("Retape",0,0);
   pop();
 
 
   push();
   textFont(HELV);
-  textSize(windowHeight/18);
+  textSize(windowHeight/30);
   textAlign(LEFT);
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) + (windowHeight/13));
   fill(value4, value5, value6);
