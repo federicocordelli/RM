@@ -74,7 +74,7 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/36);
   textAlign(LEFT);
-  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) + (windowHeight/27));
+  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) + (windowHeight/45));
   fill(value1, value2, value3);
   text("THE PATCHLAB",0,0);
   pop();
@@ -159,7 +159,7 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/80);
   textAlign(RIGHT);
-  translate(windowWidth/2 - 20,(windowHeight/2) - ((windowHeight/60)*8));
+  translate(windowWidth/2 - 20,(windowHeight/2) - ((windowHeight/60)*9));
   fill(value7,value8,value9);
   text("Carlotta Calabria -\nFederico Cordelli -\nShan Huang -\nYuri Piemontese -\nLorenzo Urietti -\nValentina Zaccaria _",0,0);
   pop();
