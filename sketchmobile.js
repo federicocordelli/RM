@@ -2,6 +2,7 @@ let IKAN;
 let HELV;
 let XanhItal;
 let rot = 0;
+
 let value1 = 218;
 let value2 = 148;
 let value3 = 87;
@@ -36,14 +37,14 @@ function setup() {
 }
 
 function draw() {
-  background(value1, value2, value3);
+  background(value4, value5, value6);
 
   push();
   textFont(HELV);
   textSize(windowHeight/60);
   textAlign(LEFT,CENTER);
   translate((mouseX,mouseY);
-  fill(value4, value5, value6, opacity);
+  fill(value1, value2, value3, opacity);
   text("Paraphrasing the statement of A. Dune & F. Raby (the creators of the Speculative Design): \nwe can educate (or at least inform) the mass by working on citizens, \nbut in a capitalistic society we can only change the world by working on customers. \nOur group started with the topic Sustainable Consumption & Production, \nand we moved our attention on Fast Fashion and Textile Industry in general, just in order \nto find the most exemplary case in which our daily consumption feeds \nhuge global problems (ranging from labour exploitation to waste of water and its pollution, \nfrom CO2 emissions to incorrect waste disposal, ecc.). \nWe think that our topic is strictly related to all these social issues, because when we talk \nabout consumption, we are talking about society in its manifestation. \nTherefore, working on customers is the most efficient way to take care of our planet \nfrom every point of view. By simply creating a different purchase proposal, \na new more responsible one, a butterfly effect could begin generating \na new demand (a new responsible one) in the market, and this could lead big brands \nto readjust their offer.\n \nIf it is true that the market demand begins from the needs of society, \nit is time for our most urgent need to change the offer. \nSmall actions destroy the planet, small actions can save it.",0,0);
   pop();
 
@@ -62,7 +63,7 @@ function draw() {
   push();
   textAlign(LEFT);
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) );
-  fill(value4, value5, value6);
+  fill(value1, value2, value3);
   textFont(IKAN);
   textSize(windowHeight/12);
   text("Retape",0,0);
@@ -74,7 +75,7 @@ function draw() {
   textSize(windowHeight/30);
   textAlign(LEFT);
   translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/4) + (windowHeight/13));
-  fill(value4, value5, value6);
+  fill(value1, value2, value3);
   text("THE PATCHLAB",0,0);
   pop();
 
@@ -113,9 +114,9 @@ function draw() {
 
   push();
   textFont(HELV);
-  textSize(windowHeight/51);
+  textSize(windowHeight/80);
   textAlign(LEFT,CENTER);
-  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/51));
+  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/80));
   fill('#C65B4C');
   rotateX(millis() / 2500);
   text("sustainable consumption & production project / Politecnico di Milano students: Carlotta Calabria - Federico Cordelli - Shan Huang - Yuri Piemontese - Lorenzo Urietti - Valentina Zaccaria",0,0);
@@ -138,9 +139,9 @@ function draw() {
 
   push();
   textFont(HELV);
-  textSize(windowHeight/60);
+  textSize(windowHeight/80);
   textAlign(RIGHT);
-  translate(windowWidth/2 - 20,(windowHeight/2) - (windowHeight/60));
+  translate(windowWidth/2 - 20,(windowHeight/2) - (windowHeight/80));
   fill('#C65B4C');
   text("PROJECT MANIFESTO_ALSO IF RETAPE DOESN'T EXIST AS SHOP IT CAN LIVE IN OUR ACTIONS",0,0);
   pop();
