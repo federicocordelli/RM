@@ -41,7 +41,7 @@ function draw() {
 
   push();
   textFont(HELV);
-  textSize(windowHeight/60);
+  textSize(windowHeight/70);
   textAlign(LEFT,CENTER);
   translate(-windowWidth/2 + mouseX, -windowHeight/2 + mouseY);
   fill(value1, value2, value3, opacity);
@@ -62,7 +62,7 @@ function draw() {
 
   push();
   textAlign(LEFT);
-  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/8) );
+  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/5) );
   fill(value1, value2, value3);
   textFont(IKAN);
   textSize(windowHeight/8);
@@ -159,7 +159,7 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/70);
   textAlign(RIGHT);
-  translate(windowWidth/2 - 20,(windowHeight/2) - ((windowHeight/60)*8));
+  translate(windowWidth/2 - 20,(windowHeight/2) - ((windowHeight/60)*10));
   fill(value7,value8,value9);
   text("Carlotta Calabria -\nFederico Cordelli -\nShan Huang -\nYuri Piemontese -\nLorenzo Urietti -\nValentina Zaccaria _",0,0);
   pop();
