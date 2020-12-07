@@ -74,7 +74,7 @@ function draw() {
   textFont(HELV);
   textSize(windowHeight/36);
   textAlign(LEFT);
-  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/27));
+  translate((-windowWidth/2)+20,(-windowHeight/2) + (windowHeight/9));
   fill(value1, value2, value3);
   text("THE PATCHLAB",0,0);
   pop();
