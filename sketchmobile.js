@@ -133,7 +133,7 @@ function draw() {
   push();
   strokeWeight(0.5);
   stroke('#C65B4C');
-  line(-windowWidth/2, (windowHeight/2) -110, windowWidth, (windowHeight/2) -110);
+  line(-windowWidth/2, (windowHeight/2) -90, windowWidth, (windowHeight/2) -90);
   pop();
 
   push();
